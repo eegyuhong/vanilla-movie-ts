@@ -1,0 +1,24 @@
+{
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "rules": {
+    "semi": ["error", "always"],
+    "@typescript-eslint/semi": ["error", "always"],
+    "quotes": ["error", "single"],
+    "eol-last": ["error", "always"],
+    "object-curly-spacing": ["error", "always"],
+    "array-bracket-spacing": ["error", "never"],
+    "computed-property-spacing": ["error", "never"],
+    "indent": ["error", 2]
+  }
+}
